@@ -13,6 +13,7 @@
 		99E7FFF1246FFD8300E418CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E7FFEF246FFD8300E418CF /* Main.storyboard */; };
 		99E7FFF3246FFD8900E418CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E7FFF2246FFD8900E418CF /* Assets.xcassets */; };
 		99E7FFF6246FFD8900E418CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E7FFF4246FFD8900E418CF /* LaunchScreen.storyboard */; };
+		99E7FFFE246FFEF900E418CF /* watched_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E7FFFD246FFEF900E418CF /* watched_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		99E7FFF2246FFD8900E418CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99E7FFF5246FFD8900E418CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99E7FFF7246FFD8900E418CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99E7FFFD246FFEF900E418CF /* watched_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watched_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				99E7FFEB246FFD8300E418CF /* SceneDelegate.swift */,
 				99E7FFED246FFD8300E418CF /* ViewController.swift */,
 				99E7FFEF246FFD8300E418CF /* Main.storyboard */,
+				99E7FFFD246FFEF900E418CF /* watched_logo.png */,
 				99E7FFF2246FFD8900E418CF /* Assets.xcassets */,
 				99E7FFF4246FFD8900E418CF /* LaunchScreen.storyboard */,
 				99E7FFF7246FFD8900E418CF /* Info.plist */,
@@ -128,6 +131,7 @@
 				99E7FFF6246FFD8900E418CF /* LaunchScreen.storyboard in Resources */,
 				99E7FFF3246FFD8900E418CF /* Assets.xcassets in Resources */,
 				99E7FFF1246FFD8300E418CF /* Main.storyboard in Resources */,
+				99E7FFFE246FFEF900E418CF /* watched_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
