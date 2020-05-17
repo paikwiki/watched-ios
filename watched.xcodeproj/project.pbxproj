@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A9E459624711141008A15C1 /* google-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A9E459524711141008A15C1 /* google-logo.png */; };
 		99E7FFEA246FFD8300E418CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7FFE9246FFD8300E418CF /* AppDelegate.swift */; };
 		99E7FFEC246FFD8300E418CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7FFEB246FFD8300E418CF /* SceneDelegate.swift */; };
 		99E7FFEE246FFD8300E418CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E7FFED246FFD8300E418CF /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A9E459524711141008A15C1 /* google-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google-logo.png"; sourceTree = "<group>"; };
 		99E7FFE6246FFD8300E418CF /* watched.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watched.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E7FFE9246FFD8300E418CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E7FFEB246FFD8300E418CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				99E7FFE9246FFD8300E418CF /* AppDelegate.swift */,
 				99E7FFEB246FFD8300E418CF /* SceneDelegate.swift */,
+				4A9E459524711141008A15C1 /* google-logo.png */,
 				99E7FFED246FFD8300E418CF /* ViewController.swift */,
 				99E7FFEF246FFD8300E418CF /* Main.storyboard */,
 				99E7FFFD246FFEF900E418CF /* watched_logo.png */,
@@ -131,6 +134,7 @@
 				99E7FFF6246FFD8900E418CF /* LaunchScreen.storyboard in Resources */,
 				99E7FFF3246FFD8900E418CF /* Assets.xcassets in Resources */,
 				99E7FFF1246FFD8300E418CF /* Main.storyboard in Resources */,
+				4A9E459624711141008A15C1 /* google-logo.png in Resources */,
 				99E7FFFE246FFEF900E418CF /* watched_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
