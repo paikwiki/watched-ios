@@ -15,42 +15,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTY-cB-Aly">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watched_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ESU-1C-5Cy">
-                                        <rect key="frame" x="104.5" y="172" width="205" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="3lh-Sk-yC7"/>
-                                            <constraint firstAttribute="width" constant="205" id="ooH-iJ-SU9"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdY-71-wxE">
-                                        <rect key="frame" x="24" y="424" width="366" height="48"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="48" id="gxQ-KY-sUy"/>
-                                        </constraints>
-                                        <state key="normal" title="Google로 로그인/회원가입"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="watched_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="ESU-1C-5Cy">
+                                <rect key="frame" x="104.5" y="184" width="205" height="55"/>
                                 <constraints>
-                                    <constraint firstItem="QdY-71-wxE" firstAttribute="centerY" secondItem="XTY-cB-Aly" secondAttribute="centerY" id="4eK-7X-DUA"/>
-                                    <constraint firstItem="QdY-71-wxE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XTY-cB-Aly" secondAttribute="leading" id="8ZT-7H-YqX"/>
-                                    <constraint firstItem="QdY-71-wxE" firstAttribute="centerX" secondItem="XTY-cB-Aly" secondAttribute="centerX" id="YXt-W6-2xZ"/>
-                                    <constraint firstItem="ESU-1C-5Cy" firstAttribute="centerX" secondItem="XTY-cB-Aly" secondAttribute="centerX" id="dTa-J8-6fS"/>
-                                    <constraint firstItem="ESU-1C-5Cy" firstAttribute="top" secondItem="XTY-cB-Aly" secondAttribute="top" constant="172" id="j0e-Tl-xKs"/>
-                                    <constraint firstAttribute="trailing" secondItem="QdY-71-wxE" secondAttribute="trailing" constant="24" id="uj0-Kx-owy"/>
+                                    <constraint firstAttribute="height" constant="55" id="9tx-eY-t8d"/>
                                 </constraints>
-                            </view>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="©2020 Watched, Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x6y-3r-kVh">
-                                <rect key="frame" x="125" y="843" width="164" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="138" y="847" width="138" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.62745098039215685" green="0.68235294117647061" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lxB-p1-Ily">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <color key="barTintColor" red="0.031372549020000001" green="0.1215686275" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="로그인" leftItemsSupplementBackButton="YES" id="Bed-M4-hgQ">
                                         <barButtonItem key="backBarButtonItem" title="back" id="PMu-If-D94"/>
@@ -58,29 +40,58 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="봤으면 마음껏 떠들어보자!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9P-NQ-XuK">
-                                <rect key="frame" x="104.5" y="128" width="205" height="24"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="24" id="VpI-Be-JF9"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="205" id="m4Y-fn-ep5"/>
-                                </constraints>
+                                <rect key="frame" x="104.5" y="148" width="205" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCX-sn-MYB">
+                                <rect key="frame" x="96" y="539" width="222" height="48"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="google-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cp0-dg-yeJ">
+                                        <rect key="frame" x="0.0" y="5" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="60f-dA-o6K"/>
+                                            <constraint firstAttribute="width" constant="30" id="Nba-M6-hVI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdY-71-wxE">
+                                        <rect key="frame" x="60" y="0.0" width="162" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="bNa-q3-ZRO"/>
+                                        </constraints>
+                                        <state key="normal" title="Google로 로그인/회원가입">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="QRi-AY-HCm"/>
+                                    <constraint firstItem="QdY-71-wxE" firstAttribute="top" secondItem="JCX-sn-MYB" secondAttribute="top" id="WzG-c5-aci"/>
+                                    <constraint firstItem="Cp0-dg-yeJ" firstAttribute="top" secondItem="JCX-sn-MYB" secondAttribute="top" constant="5" id="XZz-8i-FAQ"/>
+                                    <constraint firstItem="QdY-71-wxE" firstAttribute="leading" secondItem="Cp0-dg-yeJ" secondAttribute="trailing" constant="30" id="ahf-k0-PZ7"/>
+                                    <constraint firstItem="Cp0-dg-yeJ" firstAttribute="leading" secondItem="JCX-sn-MYB" secondAttribute="leading" id="dGf-Lw-of8"/>
+                                    <constraint firstAttribute="width" constant="222" id="t44-zm-P1Y"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="QdY-71-wxE" secondAttribute="trailing" id="wpo-2C-xvx"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="lxB-p1-Ily" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="01W-OI-3O3"/>
-                            <constraint firstItem="XTY-cB-Aly" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Rr-cK-DK7"/>
-                            <constraint firstItem="XTY-cB-Aly" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PCP-Fa-bDW"/>
-                            <constraint firstItem="lxB-p1-Ily" firstAttribute="centerX" secondItem="x6y-3r-kVh" secondAttribute="centerX" id="UF5-RF-Jnq"/>
-                            <constraint firstItem="lxB-p1-Ily" firstAttribute="centerX" secondItem="K9P-NQ-XuK" secondAttribute="centerX" id="gVc-53-RQM"/>
-                            <constraint firstItem="K9P-NQ-XuK" firstAttribute="top" secondItem="lxB-p1-Ily" secondAttribute="bottom" constant="40" id="ldH-pL-k3U"/>
-                            <constraint firstItem="lxB-p1-Ily" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nL2-IW-Rh7"/>
-                            <constraint firstAttribute="bottom" secondItem="x6y-3r-kVh" secondAttribute="bottom" constant="32" id="ng3-Dp-0BT"/>
-                            <constraint firstItem="XTY-cB-Aly" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oFY-N7-BAR"/>
-                            <constraint firstAttribute="bottom" secondItem="XTY-cB-Aly" secondAttribute="bottom" id="t8Q-do-ris"/>
-                            <constraint firstItem="lxB-p1-Ily" firstAttribute="leading" secondItem="XTY-cB-Aly" secondAttribute="leading" id="zYg-VF-jQC"/>
+                            <constraint firstItem="K9P-NQ-XuK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104.5" id="497-0Q-Po3"/>
+                            <constraint firstItem="ESU-1C-5Cy" firstAttribute="top" secondItem="K9P-NQ-XuK" secondAttribute="bottom" constant="12" id="72M-PO-ieh"/>
+                            <constraint firstItem="lxB-p1-Ily" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BD5-ds-0WM"/>
+                            <constraint firstItem="x6y-3r-kVh" firstAttribute="centerX" secondItem="ESU-1C-5Cy" secondAttribute="centerX" id="DwL-8X-iuE"/>
+                            <constraint firstItem="x6y-3r-kVh" firstAttribute="centerX" secondItem="K9P-NQ-XuK" secondAttribute="centerX" id="Em2-v3-kwr"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="x6y-3r-kVh" secondAttribute="bottom" constant="-2" id="JQH-Pn-bzf"/>
+                            <constraint firstItem="K9P-NQ-XuK" firstAttribute="leading" secondItem="ESU-1C-5Cy" secondAttribute="leading" id="Q4P-ZR-PTG"/>
+                            <constraint firstItem="x6y-3r-kVh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YCw-w5-tDa"/>
+                            <constraint firstItem="K9P-NQ-XuK" firstAttribute="top" secondItem="lxB-p1-Ily" secondAttribute="bottom" constant="60" id="iHP-Ut-8o2"/>
+                            <constraint firstItem="lxB-p1-Ily" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kq6-c9-Fpv"/>
+                            <constraint firstItem="x6y-3r-kVh" firstAttribute="top" secondItem="JCX-sn-MYB" secondAttribute="bottom" constant="260" id="lLc-hC-0Pm"/>
+                            <constraint firstItem="x6y-3r-kVh" firstAttribute="centerX" secondItem="lxB-p1-Ily" secondAttribute="centerX" id="lQf-W0-j7e"/>
+                            <constraint firstItem="x6y-3r-kVh" firstAttribute="centerX" secondItem="JCX-sn-MYB" secondAttribute="centerX" id="vsW-bM-Px3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -91,6 +102,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="google-logo.png" width="1308" height="1301"/>
         <image name="watched_logo.png" width="1280" height="300"/>
     </resources>
 </document>
